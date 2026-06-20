@@ -1,6 +1,6 @@
 ## ESP32 30-Day Hardware Programming Wiki
 
-[中文](Home) | English
+[返回中文默认页](Home) | English
 
 Welcome to the `awesome-esp32-30-days` Wiki. This is the English navigation hub for beginners learning ESP32, embedded systems, IoT prototypes, and smart hardware. The Markdown files in the main repository are the source of truth.
 
