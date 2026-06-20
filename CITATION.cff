@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: 30天轻松搞定ESP32
+message: If you use this ESP32 learning project, please cite it with this metadata.
+type: educational-resource
+authors:
+  - name: siliang42
+repository-code: https://github.com/siliang42/awesome-esp32-30-days
+url: https://github.com/siliang42/awesome-esp32-30-days
+abstract: 中文 ESP32 30 天硬件编程入门课程，覆盖开发板、GPIO、PWM、ADC、I2C、SPI、OLED、传感器、Wi-Fi、HTTP、MQTT、BLE、低功耗和综合物联网项目。
+keywords:
+  - ESP32
+  - ESP32 tutorial
+  - ESP32 入门
+  - hardware programming
+  - embedded systems
+  - IoT
+  - Arduino ESP32
+  - PlatformIO
+  - MQTT
+  - BLE
+license: MIT

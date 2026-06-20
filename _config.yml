@@ -1,4 +1,28 @@
 title: 30天轻松搞定ESP32
-description: 30 天硬件编程入门学习计划：从 ESP32 入门开发板、元件认知、GPIO、OLED、传感器到 Wi-Fi/MQTT/BLE 和综合项目的学习路线。
+description: 中文 ESP32 30 天硬件编程入门课程：从开发板、元件认知、GPIO、PWM、ADC、I2C、SPI、OLED、传感器，到 Wi-Fi、HTTP、MQTT、BLE、低功耗和综合物联网项目。
+url: https://siliang42.github.io
+baseurl: /awesome-esp32-30-days
+repository: siliang42/awesome-esp32-30-days
+lang: zh-CN
 theme: minima
 markdown: kramdown
+author: siliang42
+keywords:
+  - ESP32
+  - ESP32 入门
+  - ESP32 教程
+  - ESP32 30 天学习计划
+  - 硬件编程
+  - 嵌入式开发
+  - 物联网
+  - Arduino ESP32
+  - PlatformIO ESP32
+  - GPIO
+  - PWM
+  - ADC
+  - I2C
+  - SPI
+  - OLED
+  - MQTT
+  - BLE
+  - 低功耗

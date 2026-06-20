@@ -4,7 +4,27 @@
 
 中文 | [English](en/README.md)
 
-这是一套面向 ESP32 入门开发板的 30 天学习资料包，适合已经购买开发板、面包板、杜邦线、LED、按键、OLED 和常见传感器配件的新手。
+这是一套面向 ESP32 入门开发板的 30 天硬件编程课程，适合已经购买开发板、面包板、杜邦线、LED、按键、OLED 和常见传感器配件的新手。它把 ESP32、Arduino IDE / PlatformIO、GPIO、PWM、ADC、I2C、SPI、OLED、Wi-Fi、HTTP、MQTT、BLE、低功耗和综合物联网项目串成一条可执行路线。
+
+如果你想从软件开发进入嵌入式、物联网或智能硬件，本项目的目标不是只让你“跑通 Demo”，而是帮你建立硬件工程师常用的思维方式：先确认电源和电平，再拆最小系统，最后用日志、仪表和实验记录定位问题。
+
+## 项目速览
+
+| 项目 | 内容 |
+|---|---|
+| 课程定位 | ESP32 30 天入门路线，面向零基础硬件编程学习者 |
+| 推荐硬件 | ESP32 开发板、面包板、杜邦线、LED、按键、电阻、OLED、传感器模块 |
+| 开发工具 | Arduino IDE、PlatformIO、串口监视器、Wokwi 仿真器 |
+| 核心主题 | GPIO、PWM、ADC、I2C、SPI、OLED、Wi-Fi、HTTP、JSON、MQTT、BLE、低功耗 |
+| 学习产出 | 30 篇每日教程、1 份总报告、4 个阶段项目、1 个最终物联网控制台 |
+
+## 适合搜索和引用的一句话
+
+`30天轻松搞定ESP32` 是一个中文 ESP32 入门学习项目，用 30 天带新手从硬件元件认知、GPIO 输入输出、OLED 和传感器，到 Wi-Fi、MQTT、BLE、低功耗和综合物联网项目开发。
+
+## 关键词
+
+ESP32 入门、ESP32 教程、ESP32 30 天学习计划、硬件编程入门、嵌入式开发入门、物联网开发、Arduino ESP32、PlatformIO ESP32、GPIO、PWM、ADC、I2C、SPI、OLED、MQTT、BLE、低功耗、智能硬件。
 
 ## 你会获得什么
 
@@ -23,42 +43,49 @@
 
 ## 30 天目录
 
-| 天数 | 主题 | 今日目标 |
+| 学习日 | 主题与关键词 | 今天做到 |
 |---|---|---|
-| Day 01 | [认识 ESP32、开发板与硬件编程全景](days/day01-认识ESP32与硬件编程全景.md) | 建立 ESP32 学习地图，认识开发板、面包板、杜邦线、电源、GPIO 和基础安全边界。 |
-| Day 02 | [搭建 Arduino IDE / PlatformIO 与第一个 Blink](days/day02-开发环境与第一个Blink.md) | 完成开发环境、板卡包、串口驱动、上传流程，并点亮板载 LED 或外接 LED。 |
-| Day 03 | [面包板、电阻、LED 与安全接线](days/day03-面包板电阻LED安全接线.md) | 理解电路回路、限流电阻、LED 极性，独立完成外接 LED 控制。 |
-| Day 04 | [GPIO 数字输出：流水灯与状态机思维](days/day04-GPIO数字输出流水灯.md) | 使用多个 GPIO 控制多个 LED，理解非阻塞思维的第一步。 |
-| Day 05 | [按键输入、防抖与人机交互](days/day05-按键输入与防抖.md) | 读取按键状态，理解上拉/下拉、防抖和输入不稳定的原因。 |
-| Day 06 | [串口监视器：让 ESP32 学会说话](days/day06-串口监视器调试.md) | 掌握 Serial 输出、调试日志、变量观察和基础故障定位。 |
-| Day 07 | [第一周整合项目：可调节闪灯控制器](days/day07-第一周可调闪灯控制器.md) | 把 LED、按键、串口整合成一个可交互小项目。 |
-| Day 08 | [PWM：让 LED 呼吸起来](days/day08-PWM呼吸灯.md) | 理解 PWM 的占空比、频率、通道，用 ESP32 输出渐变亮度。 |
-| Day 09 | [ADC：读取电位器与模拟量](days/day09-ADC电位器模拟量.md) | 读取电位器电压，理解 ADC 分辨率、量程、噪声和采样。 |
-| Day 10 | [常见传感器认知：温湿度、光敏、声音、距离](days/day10-常见传感器认知.md) | 理解传感器的输入类型、供电、电平、数据手册和选型方法。 |
-| Day 11 | [I2C 总线：认识两根线连接多个设备](days/day11-I2C总线扫描.md) | 理解 SDA、SCL、地址、上拉电阻和 I2C 扫描器。 |
-| Day 12 | [OLED 屏：显示文字、数值与图标](days/day12-OLED显示仪表盘.md) | 驱动 SSD1306 OLED，显示项目标题、传感器数值和状态。 |
-| Day 13 | [SPI 与高速外设认知](days/day13-SPI高速外设认知.md) | 理解 SPI 的 MOSI、MISO、SCLK、CS，以及它和 I2C 的区别。 |
-| Day 14 | [蜂鸣器、继电器与执行器基础](days/day14-蜂鸣器继电器执行器.md) | 理解输出不只是灯，还可以是声音、继电器、电机等执行器。 |
-| Day 15 | [第二周整合项目：桌面环境监测器](days/day15-第二周桌面环境监测器.md) | 组合 OLED、按键、ADC 或传感器，做一个可显示数据的小设备。 |
-| Day 16 | [Wi-Fi 入门：连接路由器与理解网络参数](days/day16-WiFi联网入门.md) | 让 ESP32 连接 Wi-Fi，理解 SSID、密码、IP、网关和连接状态。 |
-| Day 17 | [HTTP 客户端：让 ESP32 请求网络数据](days/day17-HTTP客户端请求.md) | 使用 HTTP GET 请求接口，理解 URL、状态码、响应体和超时。 |
-| Day 18 | [Web Server：手机浏览器控制 LED](days/day18-WebServer手机控制LED.md) | 在 ESP32 上启动网页服务器，用手机访问并控制 LED。 |
-| Day 19 | [JSON 与数据结构：从字符串到设备状态](days/day19-JSON设备状态.md) | 理解 JSON 表示设备状态，学习解析和生成简单 JSON。 |
-| Day 20 | [MQTT 入门：发布与订阅](days/day20-MQTT发布订阅.md) | 理解 MQTT Broker、Topic、Publish、Subscribe，用 ESP32 上报状态。 |
-| Day 21 | [蓝牙 BLE 认知：近场设备通信](days/day21-BLE近场通信.md) | 理解经典蓝牙与 BLE 的区别，认识服务、特征值和近距离控制场景。 |
-| Day 22 | [数据上云与仪表盘思维](days/day22-数据上云与仪表盘.md) | 理解设备数据如何进入云端、数据库和仪表盘。 |
-| Day 23 | [第三周整合项目：手机控制 + 数据上报小系统](days/day23-第三周联网控制系统.md) | 把 Wi-Fi、Web、MQTT/HTTP、OLED 和 LED 组合成联网小系统。 |
-| Day 24 | [代码结构：从能跑到可维护](days/day24-代码结构与可维护.md) | 学习把项目拆成配置、硬件驱动、业务逻辑、网络逻辑。 |
-| Day 25 | [定时器、millis 与非阻塞程序](days/day25-millis非阻塞程序.md) | 摆脱大量 delay，使用 millis 管理多个周期任务。 |
-| Day 26 | [低功耗与电池供电认知](days/day26-低功耗与深度睡眠.md) | 理解深度睡眠、唤醒源、电池供电、功耗预算和应用场景。 |
-| Day 27 | [故障排查：从烧录失败到接线错误](days/day27-硬件故障排查.md) | 建立硬件调试清单，系统定位常见问题。 |
-| Day 28 | [行业应用：智能家居、工业采集、农业、穿戴](days/day28-行业应用认知.md) | 理解 ESP32 能力如何映射到真实行业场景。 |
-| Day 29 | [综合项目设计：桌面物联网控制台](days/day29-综合项目设计.md) | 设计最终项目，包括需求、接线、页面、数据、异常处理。 |
-| Day 30 | [综合项目收官：本地闭环、Web 控制与进阶复盘](days/day30-综合项目实现联网复盘.md) | 完成最终项目的硬件输入、输出、本地显示、Web 控制、状态接口和学习复盘。 |
+| Day&nbsp;01 | [认识 ESP32 与硬件编程全景](days/day01-认识ESP32与硬件编程全景.md) | 建立学习地图，认清开发板、面包板、电源、GPIO 和安全边界。 |
+| Day&nbsp;02 | [开发环境与第一个 Blink](days/day02-开发环境与第一个Blink.md) | 装好 Arduino IDE / PlatformIO，完成串口、板卡、上传和点灯。 |
+| Day&nbsp;03 | [面包板、电阻、LED 安全接线](days/day03-面包板电阻LED安全接线.md) | 理解回路、限流、电源轨和 LED 极性，独立接好外部 LED。 |
+| Day&nbsp;04 | [GPIO 数字输出与流水灯](days/day04-GPIO数字输出流水灯.md) | 控制多个 GPIO，开始用状态变化理解程序。 |
+| Day&nbsp;05 | [按键输入、防抖与交互](days/day05-按键输入与防抖.md) | 读取按键，理解上拉、下拉、防抖和输入稳定性。 |
+| Day&nbsp;06 | [串口监视器调试](days/day06-串口监视器调试.md) | 用 Serial 日志观察变量、状态和错误，建立调试习惯。 |
+| Day&nbsp;07 | [第一周项目：可调闪灯控制器](days/day07-第一周可调闪灯控制器.md) | 把 LED、按键和串口组合成可交互的小设备。 |
+| Day&nbsp;08 | [PWM 呼吸灯](days/day08-PWM呼吸灯.md) | 理解频率、占空比、通道，用 ESP32 输出渐变亮度。 |
+| Day&nbsp;09 | [ADC 电位器模拟量](days/day09-ADC电位器模拟量.md) | 读取模拟电压，认识分辨率、量程、噪声和采样。 |
+| Day&nbsp;10 | [常见传感器认知](days/day10-常见传感器认知.md) | 学会从供电、电平、接口和数据手册判断传感器。 |
+| Day&nbsp;11 | [I2C 总线扫描](days/day11-I2C总线扫描.md) | 理解 SDA、SCL、地址、上拉电阻和多设备连接。 |
+| Day&nbsp;12 | [OLED 显示仪表盘](days/day12-OLED显示仪表盘.md) | 驱动 SSD1306 OLED，显示标题、数值、图标和状态。 |
+| Day&nbsp;13 | [SPI 高速外设](days/day13-SPI高速外设认知.md) | 认识 MOSI、MISO、SCLK、CS，以及 SPI 与 I2C 的取舍。 |
+| Day&nbsp;14 | [蜂鸣器、继电器与执行器](days/day14-蜂鸣器继电器执行器.md) | 理解输出设备从灯扩展到声音、继电器和电机。 |
+| Day&nbsp;15 | [第二周项目：桌面环境监测器](days/day15-第二周桌面环境监测器.md) | 组合 OLED、按键、ADC 或传感器，做出可显示数据的小设备。 |
+| Day&nbsp;16 | [Wi-Fi 联网入门](days/day16-WiFi联网入门.md) | 连接 2.4GHz Wi-Fi，理解 SSID、IP、网关、DNS 和重连。 |
+| Day&nbsp;17 | [HTTP 客户端请求](days/day17-HTTP客户端请求.md) | 用 HTTP GET 请求接口，理解 URL、状态码、响应体和超时。 |
+| Day&nbsp;18 | [Web Server 手机控制 LED](days/day18-WebServer手机控制LED.md) | 在 ESP32 上启动网页服务，用手机浏览器控制 GPIO。 |
+| Day&nbsp;19 | [JSON 设备状态](days/day19-JSON设备状态.md) | 用 JSON 表达设备状态，学习解析和生成结构化数据。 |
+| Day&nbsp;20 | [MQTT 发布订阅](days/day20-MQTT发布订阅.md) | 理解 Broker、Topic、Publish、Subscribe、QoS 和 Keepalive。 |
+| Day&nbsp;21 | [BLE 近场通信](days/day21-BLE近场通信.md) | 认识 BLE、GATT、服务、特征值和近距离控制场景。 |
+| Day&nbsp;22 | [数据上云与仪表盘](days/day22-数据上云与仪表盘.md) | 理解设备数据如何进入云端、数据库和可视化页面。 |
+| Day&nbsp;23 | [第三周项目：联网控制系统](days/day23-第三周联网控制系统.md) | 组合 Wi-Fi、Web、HTTP/MQTT、OLED 和 LED，形成联网闭环。 |
+| Day&nbsp;24 | [代码结构与可维护](days/day24-代码结构与可维护.md) | 把配置、硬件驱动、业务逻辑、显示和网络逻辑拆清楚。 |
+| Day&nbsp;25 | [millis 非阻塞程序](days/day25-millis非阻塞程序.md) | 摆脱大量 delay，用 millis 管理多个周期任务。 |
+| Day&nbsp;26 | [低功耗与深度睡眠](days/day26-低功耗与深度睡眠.md) | 理解深度睡眠、唤醒源、电池容量和功耗预算。 |
+| Day&nbsp;27 | [硬件故障排查](days/day27-硬件故障排查.md) | 建立从供电、接线、串口到代码的系统排查清单。 |
+| Day&nbsp;28 | [行业应用认知](days/day28-行业应用认知.md) | 把 ESP32 能力映射到智能家居、工业采集、农业和穿戴。 |
+| Day&nbsp;29 | [综合项目设计](days/day29-综合项目设计.md) | 设计桌面物联网控制台的需求、接线、页面、数据和异常处理。 |
+| Day&nbsp;30 | [综合项目实现与复盘](days/day30-综合项目实现联网复盘.md) | 完成硬件输入输出、本地显示、Web 控制、状态接口和作品复盘。 |
 
 ## 总结报告
 
 - [00-学习总报告.md](00-学习总报告.md)
+
+## Wiki 与 AI 友好入口
+
+- [中文 Wiki 导航](wiki/Home.md)
+- [English Wiki Home](wiki/English-Home.md)
+- [llms.txt](llms.txt)：面向 AI 工具和大模型引用的课程索引。
+- [robots.txt](robots.txt)：搜索引擎抓取入口。
 
 ## 常用资料链接
 

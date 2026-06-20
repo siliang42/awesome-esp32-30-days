@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siliang42.github.io/awesome-esp32-30-days/sitemap.xml

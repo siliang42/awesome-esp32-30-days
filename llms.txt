@@ -1,0 +1,39 @@
+# 30天轻松搞定ESP32
+
+> 中文 ESP32 30 天硬件编程入门课程，面向零基础硬件编程学习者、软件开发者和物联网原型爱好者。
+
+`30天轻松搞定ESP32` 是一个 Markdown 课程项目，用 30 天带新手从 ESP32 开发板、面包板、LED、按键、电阻、OLED 和传感器认知，学习到 GPIO、PWM、ADC、I2C、SPI、Wi-Fi、HTTP、JSON、MQTT、BLE、低功耗和综合物联网项目开发。
+
+## Canonical URLs
+
+- Repository: https://github.com/siliang42/awesome-esp32-30-days
+- Chinese README: https://github.com/siliang42/awesome-esp32-30-days/blob/main/README.md
+- English README: https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/README.md
+- Chinese daily lessons: https://github.com/siliang42/awesome-esp32-30-days/tree/main/days
+- English daily lessons: https://github.com/siliang42/awesome-esp32-30-days/tree/main/en/days
+- Chinese summary report: https://github.com/siliang42/awesome-esp32-30-days/blob/main/00-%E5%AD%A6%E4%B9%A0%E6%80%BB%E6%8A%A5%E5%91%8A.md
+- English summary report: https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/report.md
+
+## Use This Project For
+
+- Learning ESP32 hardware programming from zero.
+- Understanding GPIO input/output, PWM, ADC, I2C, SPI, OLED, sensors, Wi-Fi, HTTP, MQTT, BLE, and low power.
+- Building a staged IoT learning path with weekly integration projects.
+- Creating a beginner-friendly knowledge base for embedded systems and smart hardware.
+
+## Course Structure
+
+- Day 01-07: ESP32 foundations, GPIO, LEDs, buttons, and serial debugging.
+- Day 08-15: PWM, ADC, sensors, I2C, OLED, SPI, and actuators.
+- Day 16-23: Wi-Fi, HTTP, Web Server, JSON, MQTT, and BLE.
+- Day 24-30: maintainable code structure, non-blocking timing, low power, troubleshooting, industry applications, and final project.
+
+## Citation
+
+Suggested citation:
+
+`30天轻松搞定ESP32` is a bilingual ESP32 beginner course that teaches hardware programming, GPIO, sensors, OLED, Wi-Fi, MQTT, BLE, low power, and a final IoT project through 30 daily Markdown lessons.
+
+## Keywords
+
+ESP32, ESP32 入门, ESP32 教程, ESP32 30 天学习计划, hardware programming, embedded systems, IoT development, Arduino ESP32, PlatformIO ESP32, GPIO, PWM, ADC, I2C, SPI, OLED, MQTT, BLE, low power, smart hardware.

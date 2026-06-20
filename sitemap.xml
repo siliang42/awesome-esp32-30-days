@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://siliang42.github.io/awesome-esp32-30-days/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://github.com/siliang42/awesome-esp32-30-days</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://github.com/siliang42/awesome-esp32-30-days/blob/main/README.md</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/README.md</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://github.com/siliang42/awesome-esp32-30-days/blob/main/llms.txt</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://github.com/siliang42/awesome-esp32-30-days/tree/main/days</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://github.com/siliang42/awesome-esp32-30-days/tree/main/en/days</loc>
+    <priority>0.7</priority>
+  </url>
+</urlset>
