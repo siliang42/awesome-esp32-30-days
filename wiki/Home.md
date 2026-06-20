@@ -1,6 +1,6 @@
 ## ESP32 30 天硬件编程入门 Wiki
 
-中文 | [English](English-Home)
+默认中文页 | [Switch to English](English-Home)
 
 欢迎来到 `awesome-esp32-30-days` Wiki。这里是项目的中文导航页，适合第一次接触 ESP32、嵌入式开发、物联网原型和智能硬件的新手快速找到学习入口。完整课程内容以仓库中的 Markdown 文档为准。
 

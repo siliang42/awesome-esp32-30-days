@@ -1,7 +1,7 @@
 # 30天轻松搞定ESP32
 
-- [中文首页](Home)
-- [English Home](English-Home)
+- [默认中文首页](Home)
+- [English Wiki](English-Home)
 
 ## 中文课程
 
