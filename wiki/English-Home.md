@@ -26,6 +26,21 @@ This course breaks those questions into 30 daily lessons, moving from components
 - [中文 README](https://github.com/siliang42/awesome-esp32-30-days/blob/main/README.md)
 - [AI index llms.txt](https://github.com/siliang42/awesome-esp32-30-days/blob/main/llms.txt)
 
+## 30-Day Course Navigation
+
+| Day | Topic | Core Skill |
+|---|---|---|
+| Day 01 | [ESP32 and the Hardware Programming Map](https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/days/day01.md) | Understand the board, GPIO, power, and safety boundaries |
+| Day 02 | [Development Environment and Blink](https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/days/day02.md) | Configure tools, board package, serial port, compile, and upload |
+| Day 03 | [Breadboards, Resistors, and LED Wiring](https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/days/day03.md) | Build safe LED circuits with polarity and current limiting |
+| Day 04 | [GPIO Digital Output](https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/days/day04.md) | Control multiple GPIO pins and model state changes |
+| Day 05 | [Button Input and Debouncing](https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/days/day05.md) | Read inputs with pull-ups and debounce logic |
+| Day 06 | [Serial Monitor Debugging](https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/days/day06.md) | Inspect variables, state, and errors with logs |
+| Day 07 | [Week 1 Project: Blinking Controller](https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/days/day07.md) | Combine LEDs, buttons, and serial feedback |
+| Day 08-15 | [Peripherals, buses, and environment monitor](https://github.com/siliang42/awesome-esp32-30-days/tree/main/en/days) | PWM, ADC, sensors, I2C, OLED, SPI, actuators |
+| Day 16-23 | [Connectivity and phone control system](https://github.com/siliang42/awesome-esp32-30-days/tree/main/en/days) | Wi-Fi, HTTP, Web Server, JSON, MQTT, BLE |
+| Day 24-30 | [Engineering and final IoT console](https://github.com/siliang42/awesome-esp32-30-days/tree/main/en/days) | structure, non-blocking timing, low power, troubleshooting, final project |
+
 ## Recommended Hardware
 
 | Category | Recommended Items | Purpose |

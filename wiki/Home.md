@@ -26,6 +26,21 @@
 - [English README](https://github.com/siliang42/awesome-esp32-30-days/blob/main/en/README.md)
 - [AI 工具索引 llms.txt](https://github.com/siliang42/awesome-esp32-30-days/blob/main/llms.txt)
 
+## 30 天课程导航
+
+| 天数 | 主题 | 核心能力 |
+|---|---|---|
+| Day 01 | [认识 ESP32 与硬件编程全景](https://github.com/siliang42/awesome-esp32-30-days/blob/main/days/day01-%E8%AE%A4%E8%AF%86ESP32%E4%B8%8E%E7%A1%AC%E4%BB%B6%E7%BC%96%E7%A8%8B%E5%85%A8%E6%99%AF.md) | 建立学习地图，理解开发板、GPIO、电源和安全边界 |
+| Day 02 | [开发环境与第一个 Blink](https://github.com/siliang42/awesome-esp32-30-days/blob/main/days/day02-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E7%AC%AC%E4%B8%80%E4%B8%AABlink.md) | 安装工具链，完成板卡、串口、编译和上传 |
+| Day 03 | [面包板、电阻、LED 安全接线](https://github.com/siliang42/awesome-esp32-30-days/blob/main/days/day03-%E9%9D%A2%E5%8C%85%E6%9D%BF%E7%94%B5%E9%98%BBLED%E5%AE%89%E5%85%A8%E6%8E%A5%E7%BA%BF.md) | 理解回路、限流、电源轨和 LED 极性 |
+| Day 04 | [GPIO 数字输出与流水灯](https://github.com/siliang42/awesome-esp32-30-days/blob/main/days/day04-GPIO%E6%95%B0%E5%AD%97%E8%BE%93%E5%87%BA%E6%B5%81%E6%B0%B4%E7%81%AF.md) | 控制多个 GPIO，形成状态变化思维 |
+| Day 05 | [按键输入与防抖](https://github.com/siliang42/awesome-esp32-30-days/blob/main/days/day05-%E6%8C%89%E9%94%AE%E8%BE%93%E5%85%A5%E4%B8%8E%E9%98%B2%E6%8A%96.md) | 读取输入，理解上拉、下拉和防抖 |
+| Day 06 | [串口监视器调试](https://github.com/siliang42/awesome-esp32-30-days/blob/main/days/day06-%E4%B8%B2%E5%8F%A3%E7%9B%91%E8%A7%86%E5%99%A8%E8%B0%83%E8%AF%95.md) | 用日志观察变量、状态和错误 |
+| Day 07 | [第一周项目：可调闪灯控制器](https://github.com/siliang42/awesome-esp32-30-days/blob/main/days/day07-%E7%AC%AC%E4%B8%80%E5%91%A8%E5%8F%AF%E8%B0%83%E9%97%AA%E7%81%AF%E6%8E%A7%E5%88%B6%E5%99%A8.md) | 整合 LED、按键和串口 |
+| Day 08-15 | [外设、总线与桌面环境监测器](https://github.com/siliang42/awesome-esp32-30-days/tree/main/days) | PWM、ADC、传感器、I2C、OLED、SPI、执行器 |
+| Day 16-23 | [联网通信与手机控制系统](https://github.com/siliang42/awesome-esp32-30-days/tree/main/days) | Wi-Fi、HTTP、Web Server、JSON、MQTT、BLE |
+| Day 24-30 | [工程化与最终物联网控制台](https://github.com/siliang42/awesome-esp32-30-days/tree/main/days) | 代码结构、非阻塞、低功耗、排查、行业应用、综合项目 |
+
 ## 推荐硬件清单
 
 | 类型 | 建议准备 | 用途 |
