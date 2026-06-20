@@ -1,5 +1,3 @@
-# 30天轻松搞定ESP32
-
 ## ESP32 30 天硬件编程入门 Wiki
 
 中文 | [English](English-Home)

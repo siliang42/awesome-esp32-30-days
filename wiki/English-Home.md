@@ -1,5 +1,3 @@
-# Awesome ESP32 in 30 Days
-
 ## ESP32 30-Day Hardware Programming Wiki
 
 [中文](Home) | English
