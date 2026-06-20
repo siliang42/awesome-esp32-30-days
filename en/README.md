@@ -4,7 +4,27 @@
 
 [中文](../README.md) | English
 
-A bilingual, beginner-friendly ESP32 learning path for people who already have an ESP32 dev board, breadboard, LEDs, buttons, OLED display, and common accessories.
+A bilingual, beginner-friendly ESP32 hardware programming course for people who already have an ESP32 dev board, breadboard, LEDs, buttons, OLED display, and common accessories. The course connects ESP32, Arduino IDE / PlatformIO, GPIO, PWM, ADC, I2C, SPI, OLED, Wi-Fi, HTTP, MQTT, BLE, low power, and a final IoT project into a practical 30-day learning path.
+
+This project is designed for beginners, software developers entering embedded systems, and makers who want to build real smart hardware prototypes instead of only copying isolated demos.
+
+## Project Snapshot
+
+| Item | Details |
+|---|---|
+| Course | ESP32 beginner course in 30 days |
+| Hardware | ESP32 board, breadboard, jumper wires, LEDs, buttons, resistors, OLED, sensors |
+| Tools | Arduino IDE, PlatformIO, Serial Monitor, Wokwi simulator |
+| Topics | GPIO, PWM, ADC, I2C, SPI, OLED, Wi-Fi, HTTP, JSON, MQTT, BLE, low power |
+| Outputs | 30 daily lessons, 1 summary report, 4 staged projects, 1 final IoT console |
+
+## One-Sentence Citation
+
+`Awesome ESP32 in 30 Days` is a bilingual ESP32 beginner course that teaches hardware programming, GPIO, sensors, OLED, Wi-Fi, MQTT, BLE, low power, and a final IoT project through 30 daily Markdown lessons.
+
+## Keywords
+
+ESP32 tutorial, ESP32 beginner course, ESP32 30 day learning plan, hardware programming, embedded systems, IoT development, Arduino ESP32, PlatformIO ESP32, GPIO, PWM, ADC, I2C, SPI, OLED, MQTT, BLE, low power, smart hardware.
 
 ## What You Get
 
@@ -15,42 +35,49 @@ A bilingual, beginner-friendly ESP32 learning path for people who already have a
 
 ## 30-Day Table of Contents
 
-| Day | Topic | Goal |
+| Day | Topic and Keywords | Outcome |
 |---|---|---|
-| Day 01 | [ESP32, Dev Boards, and the Hardware Programming Map](days/day01.md) | Build the mental map for ESP32 learning: board, breadboard, jumper wires, power, GPIO, and safety boundaries. |
-| Day 02 | [Development Environment and Your First Blink](days/day02.md) | Install Arduino IDE or PlatformIO, configure the board and port, upload firmware, and blink an LED. |
-| Day 03 | [Breadboards, Resistors, LEDs, and Safe Wiring](days/day03.md) | Understand closed circuits, LED polarity, current-limiting resistors, and safe wiring habits. |
-| Day 04 | [GPIO Digital Output and Chaser LEDs](days/day04.md) | Control multiple GPIO outputs and start thinking in states instead of one-off statements. |
-| Day 05 | [Button Input, Pull-ups, and Debouncing](days/day05.md) | Read a button, understand pull-up logic, and handle mechanical bounce. |
-| Day 06 | [Serial Monitor: Let the ESP32 Speak](days/day06.md) | Use Serial output as your primary debugging window. |
-| Day 07 | [Week 1 Project: Adjustable Blinking Controller](days/day07.md) | Combine LEDs, buttons, and serial logs into a small interactive device. |
-| Day 08 | [PWM: Make an LED Breathe](days/day08.md) | Understand PWM frequency, duty cycle, channels, and ESP32 LEDC output. |
-| Day 09 | [ADC: Read a Potentiometer](days/day09.md) | Read analog voltage, understand ADC resolution, noise, and mapping. |
-| Day 10 | [Sensor Basics: Temperature, Light, Sound, and Distance](days/day10.md) | Learn how to identify sensor power, interface type, signal level, and data-sheet constraints. |
-| Day 11 | [I2C Bus: Many Devices on Two Wires](days/day11.md) | Understand SDA, SCL, addresses, pull-ups, and bus scanning. |
-| Day 12 | [OLED Display: Text, Values, and Status](days/day12.md) | Drive an SSD1306 OLED and display useful device state. |
-| Day 13 | [SPI and High-Speed Peripherals](days/day13.md) | Understand MOSI, MISO, SCLK, CS, and when SPI is better than I2C. |
-| Day 14 | [Buzzers, Relays, and Actuators](days/day14.md) | Learn that outputs include sound, relay control, and motion, not just LEDs. |
-| Day 15 | [Week 2 Project: Desktop Environment Monitor](days/day15.md) | Combine OLED, a button, ADC or a sensor, and an alert LED. |
-| Day 16 | [Wi-Fi Basics: Connect to a Router](days/day16.md) | Connect ESP32 to Wi-Fi and understand SSID, password, IP, gateway, DNS, and reconnects. |
-| Day 17 | [HTTP Client: Request Network Data](days/day17.md) | Use HTTP GET and understand URLs, status codes, response bodies, and timeouts. |
-| Day 18 | [Web Server: Control an LED from Your Phone](days/day18.md) | Run a web server on ESP32 and control GPIO from a browser. |
-| Day 19 | [JSON and Device State](days/day19.md) | Represent device state as structured data that can be sent over the network. |
-| Day 20 | [MQTT Basics: Publish and Subscribe](days/day20.md) | Understand brokers, topics, publish, subscribe, QoS, and keepalive. |
-| Day 21 | [BLE Basics: Nearby Device Communication](days/day21.md) | Understand BLE, GATT, services, characteristics, and UUIDs. |
-| Day 22 | [Cloud Data and Dashboard Thinking](days/day22.md) | Understand how device data flows to cloud platforms, databases, and dashboards. |
-| Day 23 | [Week 3 Project: Phone Control and Data Reporting](days/day23.md) | Combine Wi-Fi, Web, HTTP or MQTT, OLED, and LED into a connected mini system. |
-| Day 24 | [Code Structure: From Working to Maintainable](days/day24.md) | Split hardware setup, input reading, output updates, display, and network logic. |
-| Day 25 | [Timers, millis, and Non-Blocking Programs](days/day25.md) | Replace heavy delay calls with millis-based task scheduling. |
-| Day 26 | [Low Power and Battery-Powered Thinking](days/day26.md) | Understand deep sleep, wake sources, battery capacity, and power budgets. |
-| Day 27 | [Troubleshooting: Upload Failures and Wiring Bugs](days/day27.md) | Build a systematic checklist for hardware debugging. |
-| Day 28 | [Industry Applications: Smart Home, Industrial, Agriculture, Wearables](days/day28.md) | Map ESP32 capabilities to real-world product scenarios. |
-| Day 29 | [Final Project Design: Desktop IoT Console](days/day29.md) | Design requirements, wiring, UI, data, errors, and acceptance criteria before implementation. |
-| Day 30 | [Final Project: Local Loop, Web Control, and Review](days/day30.md) | Finish the final device, add web status/control, and turn 30 days of work into a portfolio. |
+| Day&nbsp;01 | [ESP32 and the Hardware Programming Map](days/day01.md) | Understand the board, breadboard, power, GPIO, and safety boundaries. |
+| Day&nbsp;02 | [Development Environment and Blink](days/day02.md) | Configure Arduino IDE / PlatformIO, serial port, board package, and LED upload. |
+| Day&nbsp;03 | [Breadboards, Resistors, and LED Wiring](days/day03.md) | Build a safe LED circuit with polarity, current limiting, and shared ground. |
+| Day&nbsp;04 | [GPIO Digital Output](days/day04.md) | Control multiple GPIO pins and start modeling behavior as states. |
+| Day&nbsp;05 | [Button Input and Debouncing](days/day05.md) | Read buttons with pull-ups and handle mechanical bounce. |
+| Day&nbsp;06 | [Serial Monitor Debugging](days/day06.md) | Use Serial logs to inspect variables, states, and errors. |
+| Day&nbsp;07 | [Week 1 Project: Blinking Controller](days/day07.md) | Combine LEDs, buttons, and serial logs into an interactive device. |
+| Day&nbsp;08 | [PWM Breathing LED](days/day08.md) | Control brightness with frequency, duty cycle, channel, and ESP32 LEDC. |
+| Day&nbsp;09 | [ADC and Potentiometer Input](days/day09.md) | Read analog voltage and understand resolution, range, noise, and mapping. |
+| Day&nbsp;10 | [Sensor Basics](days/day10.md) | Judge sensors by power, interface, signal level, and data sheet. |
+| Day&nbsp;11 | [I2C Bus Scanning](days/day11.md) | Understand SDA, SCL, addresses, pull-ups, and multiple I2C devices. |
+| Day&nbsp;12 | [OLED Dashboard](days/day12.md) | Drive SSD1306 OLED and show text, values, icons, and device status. |
+| Day&nbsp;13 | [SPI Peripherals](days/day13.md) | Compare MOSI, MISO, SCLK, CS, and SPI versus I2C. |
+| Day&nbsp;14 | [Buzzers, Relays, and Actuators](days/day14.md) | Expand output thinking to sound, relay control, and motion. |
+| Day&nbsp;15 | [Week 2 Project: Environment Monitor](days/day15.md) | Combine OLED, button, ADC or sensor, and alert output. |
+| Day&nbsp;16 | [Wi-Fi Basics](days/day16.md) | Connect to 2.4GHz Wi-Fi and understand SSID, IP, gateway, DNS, reconnects. |
+| Day&nbsp;17 | [HTTP Client Requests](days/day17.md) | Use HTTP GET and understand URLs, status codes, response bodies, and timeouts. |
+| Day&nbsp;18 | [ESP32 Web Server](days/day18.md) | Control GPIO from a phone browser through an ESP32-hosted page. |
+| Day&nbsp;19 | [JSON Device State](days/day19.md) | Represent device state as structured JSON for network exchange. |
+| Day&nbsp;20 | [MQTT Publish and Subscribe](days/day20.md) | Understand broker, topic, publish, subscribe, QoS, and keepalive. |
+| Day&nbsp;21 | [BLE Nearby Communication](days/day21.md) | Learn BLE, GATT, services, characteristics, and near-field control. |
+| Day&nbsp;22 | [Cloud Data and Dashboards](days/day22.md) | Trace data from device to cloud, database, and visualization. |
+| Day&nbsp;23 | [Week 3 Project: Connected Control System](days/day23.md) | Combine Wi-Fi, Web, HTTP/MQTT, OLED, and LED into a closed loop. |
+| Day&nbsp;24 | [Maintainable Code Structure](days/day24.md) | Split configuration, hardware drivers, business logic, display, and network code. |
+| Day&nbsp;25 | [millis and Non-Blocking Programs](days/day25.md) | Replace delay-heavy code with millis-based periodic tasks. |
+| Day&nbsp;26 | [Low Power and Deep Sleep](days/day26.md) | Estimate deep sleep, wake sources, battery capacity, and power budget. |
+| Day&nbsp;27 | [Hardware Troubleshooting](days/day27.md) | Debug from power, wiring, serial logs, board settings, and code. |
+| Day&nbsp;28 | [Industry Applications](days/day28.md) | Map ESP32 to smart home, industrial data, agriculture, and wearables. |
+| Day&nbsp;29 | [Final Project Design](days/day29.md) | Design the desktop IoT console requirements, wiring, UI, data, and errors. |
+| Day&nbsp;30 | [Final Project and Review](days/day30.md) | Finish local I/O, OLED, web control, status API, and portfolio review. |
 
 ## Summary Report
 
 - [Learning Summary Report](report.md)
+
+## Wiki and AI-Friendly Entrypoints
+
+- [中文 Wiki 导航](../wiki/Home.md)
+- [English Wiki Home](../wiki/English-Home.md)
+- [llms.txt](../llms.txt): concise course index for AI tools and citation.
+- [robots.txt](../robots.txt): crawler entrypoint.
 
 ## Useful Links
 
