@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="420" viewBox="0 0 1120 420">
+  <rect width="100%" height="100%" fill="#f6f3ea"/>
+  <text x="56" y="48" font-size="28" font-weight="800" fill="#10241f">Day 15 连接接线图</text>
+  <text x="56" y="74" font-size="15" fill="#66736d">先断电接线；红色通常表示 3V3/VCC，黑色表示 GND，其他颜色表示信号线。</text>
+  <rect x="56" y="102" width="260" height="250" rx="20" fill="#10241f" stroke="#d99b4c" stroke-width="3"/>
+  <text x="122" y="150" font-size="30" font-weight="900" fill="#fffaf0">ESP32</text>
+  <text x="96" y="184" font-size="14" fill="#cbd5d1">开发板引脚侧</text>
+  <rect x="680" y="90" width="410" height="280" rx="18" fill="#ffffff" stroke="#d9d0bd"/>
+  <text x="720" y="122" font-size="22" font-weight="800" fill="#10241f">外接模块 / 元器件</text>
+  
+  <path d="M 316 126 C 450 126, 520 126, 696 126" fill="none" stroke="#333333" stroke-width="4"/>
+  <circle cx="316" cy="126" r="6" fill="#333333"/>
+  <rect x="720" y="104" width="330" height="44" rx="9" fill="#fffaf0" stroke="#d9d0bd"/>
+  <text x="736" y="123" font-size="16" font-weight="800" fill="#18231f">OLED</text>
+  <text x="736" y="142" font-size="13" fill="#66736d">I2C · 显示监测值。</text>
+  <text x="80" y="131" font-size="15" font-weight="800" fill="#fffaf0">SDA=21, SCL=22, VCC=3V3, GND=GND</text>
+  <path d="M 316 184 C 450 184, 520 184, 696 184" fill="none" stroke="#d99b4c" stroke-width="4"/>
+  <circle cx="316" cy="184" r="6" fill="#d99b4c"/>
+  <rect x="720" y="162" width="330" height="44" rx="9" fill="#fffaf0" stroke="#d9d0bd"/>
+  <text x="736" y="181" font-size="16" font-weight="800" fill="#18231f">电位器中脚</text>
+  <text x="736" y="200" font-size="13" fill="#66736d">ADC · 模拟传感器。</text>
+  <text x="80" y="189" font-size="15" font-weight="800" fill="#fffaf0">GPIO34</text>
+  <path d="M 316 242 C 450 242, 520 242, 696 242" fill="none" stroke="#d99b4c" stroke-width="4"/>
+  <circle cx="316" cy="242" r="6" fill="#d99b4c"/>
+  <rect x="720" y="220" width="330" height="44" rx="9" fill="#fffaf0" stroke="#d9d0bd"/>
+  <text x="736" y="239" font-size="16" font-weight="800" fill="#18231f">LED</text>
+  <text x="736" y="258" font-size="13" fill="#66736d">串联电阻到 GND · 阈值告警。</text>
+  <text x="80" y="247" font-size="15" font-weight="800" fill="#fffaf0">GPIO23</text>
+</svg>
