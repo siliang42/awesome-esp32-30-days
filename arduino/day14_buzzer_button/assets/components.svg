@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="260" viewBox="0 0 980 260">
+  <rect width="100%" height="100%" fill="#f6f3ea"/>
+  <text x="34" y="44" font-size="26" font-weight="800" fill="#10241f">Day 14 元器件实物示意</text>
+  <text x="34" y="68" font-size="15" fill="#66736d">示意图用于识别模块外观和作用，实际模块丝印可能略有不同。</text>
+  
+  <g>
+    <rect x="34" y="80" width="220" height="126" rx="14" fill="#fffaf0" stroke="#d9d0bd"/>
+    <rect x="52" y="100" width="62" height="48" rx="8" fill="#10241f"/>
+    <circle cx="70" cy="124" r="5" fill="#38d9a9"/>
+    <circle cx="96" cy="124" r="5" fill="#d99b4c"/>
+    <text x="130" y="122" font-size="20" font-weight="800" fill="#18231f">BUZZER</text>
+    <text x="52" y="176" font-size="16" fill="#4f5c56">有源蜂鸣器</text>
+  </g>
+  <g>
+    <rect x="276" y="80" width="220" height="126" rx="14" fill="#fffaf0" stroke="#d9d0bd"/>
+    <rect x="294" y="100" width="62" height="48" rx="8" fill="#10241f"/>
+    <circle cx="312" cy="124" r="5" fill="#38d9a9"/>
+    <circle cx="338" cy="124" r="5" fill="#d99b4c"/>
+    <text x="372" y="122" font-size="20" font-weight="800" fill="#18231f">RELAY</text>
+    <text x="294" y="176" font-size="16" fill="#4f5c56">可选继电器模块</text>
+  </g>
+  <g>
+    <rect x="518" y="80" width="220" height="126" rx="14" fill="#fffaf0" stroke="#d9d0bd"/>
+    <rect x="536" y="100" width="62" height="48" rx="8" fill="#10241f"/>
+    <circle cx="554" cy="124" r="5" fill="#38d9a9"/>
+    <circle cx="580" cy="124" r="5" fill="#d99b4c"/>
+    <text x="614" y="122" font-size="20" font-weight="800" fill="#18231f">LED</text>
+    <text x="536" y="176" font-size="16" fill="#4f5c56">LED</text>
+  </g>
+</svg>
